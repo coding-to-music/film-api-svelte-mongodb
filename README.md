@@ -2,9 +2,19 @@
 
 ## A RESTful API Cataloging Photo Film 📸
 
+https://film-api-svelte-mongodb.vercel.app/
+
+https://github.com/coding-to-music/film-api-svelte-mongodb
+
 By jordanwhunter https://github.com/jordanwhunter
 
+https://filmapi.vercel.app/
+
 https://github.com/jordanwhunter/filmdexapi-v2
+
+Data is coming from here:
+
+https://filmapi.vercel.app/api/films
 
 <p align="center">
   <img height="200px" src="https://user-images.githubusercontent.com/69367907/110390102-7932ec80-8033-11eb-9e97-f694152e0b9c.png">
@@ -48,6 +58,25 @@ An API build structured with `Node`, `Express`, and `MongoDB`, along with `Svelt
 - [License](#license)
 
 ## Installation
+
+```java
+npm i -g vercel
+
+# to create a new project
+vercel init svelte film-api-svelte-mongodb
+
+# now that this project is created, you can deploy it to Vercel
+
+vercel
+
+
+vercel env add
+
+Then the variable
+Then the value
+Then the environment(s)
+
+```
 
 This application was built with `Svelte` on the front-end and `Vercel` on the back-end. If initiating build, make sure to initialize using `vercel init svelte <project-name>`.
 
